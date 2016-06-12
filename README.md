@@ -2,7 +2,7 @@
 
 ### Abstract
 
-> If you could work on open-source software projects, with a view to your work helping others (e.g. industry programmers), what type of projects would you like to work on?
+> If you could work on open-source, functional programming software projects, with a view to your work helping others (e.g. industry programmers), what type of projects would you like to work on?
 
 ----
 
