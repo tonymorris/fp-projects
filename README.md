@@ -99,7 +99,6 @@ Haskell tensor flow bindings would lower the barrier to entry for
 computational scientists interested in using Haskell, and would result
 in data analysis software stacks that were more trustworthy.
 
-
 ----
 
 ### Higher-Kinded Types for the Rust programming language
@@ -114,6 +113,8 @@ repeat specialised instances [of what is otherwise generalised].
 
 The creators of the Rust programming are aware of this shortcoming and seek the
 necessary expertise and effort to fix it.
+
+----
 
 ### Java Virtual Machine meta-programming library in Haskell
 
@@ -176,4 +177,34 @@ http://hackage.haskell.org/package/constraints
 ----
 
 ### argonaut/xml
+
+----
+
+### Typed assembly languages
+
+There are techniques that come from [typed assembly languages](https://www.cs.cornell.edu/talc/) that can be used to make code generation easier and more likely to be correct.
+These could be targetted to LLVM and JVM and refined, to enable various language and platform agnostic tooling.
+
+There has been some recent success with language agnostic descriptions of problems coupled with code generators in the [Swagger](http://swagger.io/) project for REST APIs, and there are some othe areas where taking this approach could make some exciting technologies available to people working in industry.
+
+----
+
+### Session types
+
+Session types provide a typing discpline for protocols, and checking that no communication errors or deadlocks will occurr.
+There are [various implementations](http://simonjf.com/2016/05/28/session-type-implementations.html) that exist with various levels of maturity.
+
+The combination of
+- a language-agnostic description of protocols,  
+- a tool to verify the validity of procotols, and
+- a set of code-generator for various languages (a la Swagger)
+could make it easier for programmers to develop code for protocols with high confidence, particularly in settings where the various endpoints may be implemented in different languages or for different platforms. 
+
+----
+
+### Event sourcing tools
+
+Event source and CQRS are another area where there are [tools and techniques](https://www.youtube.com/watch?v=d1zFoFlIneo) that could be more widely applied, and where the combination of language-agnostic descriptions of the problems and code generation could bear fruit.
+
+Unlike with sessions types, there are several processes and tools used in these environments that could be written in a generic manner.
 
