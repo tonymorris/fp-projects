@@ -208,3 +208,18 @@ Event source and CQRS are another area where there are [tools and techniques](ht
 
 Unlike with sessions types, there are several processes and tools used in these environments that could be written in a generic manner.
 
+----
+
+### A modular tookit for domain-specific languages (DSL)s
+
+When programming languages are formalized, they are often presented incrementally.
+
+Many of the increments can be captured into components, containing the relevant fragments of the grammar, semantics, typing rules, pretty printing and test data generation.
+
+A toolkit of these components would make it significantly easier for programmers to focus on the domain-specific parts of designing DSLs.
+
+The system would be widely useful when the set of components were built up at least until the point where they could work with System F.
+Adding support for linear types or region inference would extend the usefulness.
+
+Such a toolkit should allow for the development of tooling - including REPLs, debuggers, code formatters and documentation tools - and test suites than can be reused by the various permutations of the components, which would increase the utility of such a toolkit.
+
