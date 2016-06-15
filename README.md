@@ -50,6 +50,16 @@ Agda is a dependently-typed proof assistant. Like Haskell, it sits on the leadin
 
 ----
 
+### Better program extraction for proof assistants (Coq)
+
+Coq is also a dependently-typed proof assistant. 
+It has mature support for describing programs, proving properties about them, and then extracting these programs into other languages.
+At the moment there is extraction support for ML, Haskell and Scheme, although the ML support is the most mature.
+
+Improving the extraction support for Haskell and/or adding support for extraction to other languages would both be useful.
+
+----
+
 ### Numerical Computing tools for Haskell
 
 Data scientists, today, generally write numerical computing algorithms with the Python programming language. There is an existing and significant effort to achieve similar goals, but with the benefits provided by Haskell. Specifically, program correctness and program composition are desirable goals of numerical computing, and a common complaint is the inability to achieve these with Python.
