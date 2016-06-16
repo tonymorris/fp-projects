@@ -10,7 +10,7 @@
 
 Several of the existing libraries for the Scala programming language have incompatibilities between versions. This means that users cannot use all these libraries in a single project. This has incurred a lot of time for developers at Australian companies, such as [realestate.com.au](https://www.realestate.com.au), [ephox](https://www.ephox.com/) and [skedulo](http://skedulo.com/).
 
-Forking projects such as `[http4s, doobie, argonaut, scalaz, scalacheck, specs2]`, then modifying the code so that there exist versions that are compatible between other would alleviate a lot of this problem. The current solution is for each individual encounter with this problem to do this, but only to the extent necessary to move on with the primary software objective.
+Forking projects such as `[http4s, doobie, argonaut, scalaz, scalacheck, specs2, scalaz-specs2]`, then modifying the code so that there exist versions that are compatible between other would alleviate a lot of this problem. The current solution is for each individual encounter with this problem to do this, but only to the extent necessary to move on with the primary software objective.
 
 ----
 
