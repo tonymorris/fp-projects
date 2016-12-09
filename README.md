@@ -36,6 +36,8 @@ There is a lot of work to be done on the core language itself, as well as provid
 
 GHC is an ongoing project for the Haskell programming language, one of the most practical programming language tools in the world. GHC is on the leading edge of research, requiring significant work in implementing that research.
 
+In particular, there has been [recent discussion](https://www.reddit.com/r/haskell/comments/5g8nd0/golangs_realtime_gc_in_theory_and_practice_from/) of how GHC would benefit from having several different user-selectable garbage collectors.
+
 ----
 
 ### GHCJS
