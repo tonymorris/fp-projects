@@ -184,7 +184,7 @@ http://hackage.haskell.org/package/constraints
 
 ----
 
-### GHCJVM
+### typelead/eta (formerly GHCJVM)
 
 ----
 
