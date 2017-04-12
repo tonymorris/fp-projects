@@ -21,7 +21,7 @@
 
 Several of the existing libraries for the Scala programming language have incompatibilities between versions. This means that users cannot use all these libraries in a single project. This has incurred a lot of time for developers at Australian companies, such as [realestate.com.au](https://www.realestate.com.au), [ephox](https://www.ephox.com/) and [skedulo](http://skedulo.com/).
 
-Forking projects such as `[http4s, doobie, argonaut, scalaz, scalacheck, specs2]`, then modifying the code so that there exist versions that are compatible between other would alleviate a lot of this problem. The current solution is for each individual encounter with this problem to do this, but only to the extent necessary to move on with the primary software objective.
+Forking projects such as `[http4s, doobie, argonaut, scalaz, scalacheck, specs2, scalaz-specs2]`, then modifying the code so that there exist versions that are compatible between other would alleviate a lot of this problem. The current solution is for each individual encounter with this problem to do this, but only to the extent necessary to move on with the primary software objective.
 
 ----
 
@@ -47,6 +47,8 @@ There is a lot of work to be done on the core language itself, as well as provid
 
 GHC is an ongoing project for the Haskell programming language, one of the most practical programming language tools in the world. GHC is on the leading edge of research, requiring significant work in implementing that research.
 
+In particular, there has been [recent discussion](https://www.reddit.com/r/haskell/comments/5g8nd0/golangs_realtime_gc_in_theory_and_practice_from/) of how GHC would benefit from having several different user-selectable garbage collectors.
+
 ----
 
 ### GHCJS
@@ -58,6 +60,16 @@ GHCJS (Haskell for Javascript) aims to solve a similar problem to PureScript [th
 ### Interactive proof writing tools (Agda)
 
 Agda is a dependently-typed proof assistant. Like Haskell, it sits on the leading edge of research and there is a lot of work to be done in implementing that research.
+
+----
+
+### Better program extraction for proof assistants (Coq)
+
+Coq is also a dependently-typed proof assistant. 
+It has mature support for describing programs, proving properties about them, and then extracting these programs into other languages.
+At the moment there is extraction support for ML, Haskell and Scheme, although the ML support is the most mature.
+
+Improving the extraction support for Haskell and/or adding support for extraction to other languages would both be useful.
 
 ----
 
@@ -183,7 +195,7 @@ http://hackage.haskell.org/package/constraints
 
 ----
 
-### GHCJVM
+### typelead/eta (formerly GHCJVM)
 
 ----
 
