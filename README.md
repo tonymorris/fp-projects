@@ -4,6 +4,17 @@
 
 > If you could work on open-source, functional programming software projects, with a view to your work helping others (e.g. industry programmers), what type of projects would you like to work on?
 
+### General areas of interest
+
+* blockchain
+* distributed programming
+* government registries
+* logic systems
+* e-health
+* software developer tools
+* geospatial
+* secure systems
+
 ----
 
 ### Scala Library Standardisation
