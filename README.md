@@ -97,6 +97,8 @@ QuickCheck has become the _de facto_ library for automated testing. However, it 
 
 It has been discussed regularly among other programmers how this could be significantly improved and with benefit for all.
 
+[Hedgehog](https://github.com/hedgehogqa/haskell-hedgehog) is a newer property based testing library that addresses some of these issues, and may provide a desirable starting point.
+
 ----
 
 ### Implement a Haskell library for Tensor Flow  https://www.tensorflow.org
