@@ -81,7 +81,7 @@ Data scientists, today, generally write numerical computing algorithms with the 
 
 ### Implement propagators for concurrent programming (see talks by Edward Kmett)
 
-The properties of joined semi-lattices can be exploited for concurrent programming. The benefits of propagators for concurrent programming have been recently discussed after [talks by Edward Kmett](https://www.youtube.com/watch?v=DyPzPeOPgUE). Further work here would create the ultimate framework for concurrent programming.
+The properties of joined semi-lattices can be exploited for concurrent programming. The benefits of propagators for concurrent programming have been recently discussed after [talks by Edward Kmett](https://www.youtube.com/watch?v=DyPzPeOPgUE). Further work here would create the ultimate framework for concurrent programming.  This work has connections with FRP and CRDTs.
 
 https://github.com/ekmett/propagators
 
