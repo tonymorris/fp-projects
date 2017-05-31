@@ -250,3 +250,6 @@ Adding support for linear types or region inference would extend the usefulness.
 
 Such a toolkit should allow for the development of tooling - including REPLs, debuggers, code formatters and documentation tools - and test suites than can be reused by the various permutations of the components, which would increase the utility of such a toolkit.
 
+### Fuzzer-compatible GHC output
+
+[American Fuzzy Lop](http://lcamtuf.coredump.cx/afl/) is a killer security tool that works on C, C++ and OCaml code (and probably more).  If GHC could generate objects compatible with AFL, the bug-hunting benefits would be available to pure, lazy functional programmers.
