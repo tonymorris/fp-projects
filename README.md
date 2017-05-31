@@ -187,6 +187,10 @@ A principled approach to geodetic library design benefits all existing library u
 
 ----
 
+### Distributed Geospatial Versioning System
+
+Create a data structure that can store GIS features in a canonical way that allows diffing/branch/fork/rebase/immutable model found in Git.  This would be a way to implement a cadastre system but instead of being centralised and controlled by a single entity or government it could be used collabaoratively by GIS users (developers, surveyors, governments, etc). A change to the cadastre system could be a pull request from a 3rd party (like a surveyor).  An example of a similar system can be found at http://geogig.org/
+
 ### Constrained lens/optics
 
 Generalising optics (c.f. [van Laarhoven](http://www.twanvl.nl/blog/) lenses) to solve such issues as The Expression Problem (c.f. [Tony Morris, Lambdajam 2016](http://tonymorris.github.io/talks/#9ae5e0fa2e1b0db7589dc5398bab4b07dc971e21)) is a long-standing problem. Edward Kmett implements a library that exploits `ConstraintKinds` in the Glasgow Haskell Compiler (GHC), which provides an optimal approach to achieving this generalisation.
