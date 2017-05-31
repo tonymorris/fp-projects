@@ -122,6 +122,8 @@ Haskell tensor flow bindings would lower the barrier to entry for
 computational scientists interested in using Haskell, and would result
 in data analysis software stacks that were more trustworthy.
 
+[There exist](https://github.com/tensorflow/haskell) low-level bindings to TensorFlow.
+
 ----
 
 ### Higher-Kinded Types for the Rust programming language
