@@ -15,7 +15,7 @@
 
 ### packages
 
-##### papa
+##### `papa`
 
 Top-level package which exports all others.
 
