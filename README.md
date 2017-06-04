@@ -81,7 +81,7 @@ Data scientists, today, generally write numerical computing algorithms with the 
 
 ### Implement propagators for concurrent programming (see talks by Edward Kmett)
 
-The properties of joined semi-lattices can be exploited for concurrent programming. The benefits of propagators for concurrent programming have been recently discussed after [talks by Edward Kmett](https://www.youtube.com/watch?v=DyPzPeOPgUE). Further work here would create the ultimate framework for concurrent programming.
+The properties of joined semi-lattices can be exploited for concurrent programming. The benefits of propagators for concurrent programming have been recently discussed after [talks by Edward Kmett](https://www.youtube.com/watch?v=DyPzPeOPgUE). Further work here would create the ultimate framework for concurrent programming.  This work has connections with FRP and CRDTs.
 
 https://github.com/ekmett/propagators
 
@@ -96,6 +96,8 @@ QuickCheck has become the _de facto_ library for automated testing. However, it 
 * Inability to provide tool support after the fact, due to poor library design.
 
 It has been discussed regularly among other programmers how this could be significantly improved and with benefit for all.
+
+[Hedgehog](https://github.com/hedgehogqa/haskell-hedgehog) is a newer property based testing library that addresses some of these issues, and may provide a desirable starting point.
 
 ----
 
@@ -121,6 +123,8 @@ graph.
 Haskell tensor flow bindings would lower the barrier to entry for
 computational scientists interested in using Haskell, and would result
 in data analysis software stacks that were more trustworthy.
+
+[There exist](https://github.com/tensorflow/haskell) low-level bindings to TensorFlow.
 
 ----
 
@@ -186,6 +190,10 @@ Pure-functional libraries with strong type guarantees do not exist for geodetic 
 A principled approach to geodetic library design benefits all existing library users, since they no longer must make a (perpetual) trade between being boxed in by limitations of existing libraries, or implementing programs that simply don't work.
 
 ----
+
+### Distributed Geospatial Versioning System
+
+Create a data structure that can store GIS features in a canonical way that allows diffing/branch/fork/rebase/immutable model found in Git.  This would be a way to implement a cadastre system but instead of being centralised and controlled by a single entity or government it could be used collabaoratively by GIS users (developers, surveyors, governments, etc). A change to the cadastre system could be a pull request from a 3rd party (like a surveyor).  An example of a similar system can be found at http://geogig.org/
 
 ### Constrained lens/optics
 
