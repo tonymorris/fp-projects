@@ -19,7 +19,7 @@
 
 Top-level package which exports all others.
 
-##### `papa-unprelude`
+##### `papa-prelude`
 
 One module that exports only useful parts of the `Prelude` module.
 
