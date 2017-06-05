@@ -19,10 +19,6 @@
 
 Top-level package which exports all others.
 
-##### `papa-prelude`
-
-One module that exports only useful parts of the `Prelude` module.
-
 ##### `papa-base`
 
 Exports modules in `base` that are safe and useful to have re-exported into
