@@ -15,9 +15,7 @@
 
 ### packages
 
-* **`papa`**
-
-Top-level package which exports all other packages in `papa-*`.
+* **`papa`** Top-level package which exports all other packages in `papa-*`.
 
   * **`papa-base`** Exports modules from the `base` package that are safe and useful to have re-exported into default scope. Implements useful, general library functions that depend only on `base`.
 
