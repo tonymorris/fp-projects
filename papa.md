@@ -67,7 +67,7 @@ Exports modules from the third-party `bifunctors` package that are safe and
 useful to have re-exported into default scope. Implements useful, general
 library functions that depend only on `bifunctors`.
 
-  *  `**papa-bifunctors-export**`
+  *  **`papa-bifunctors-export`**
 
      Exports safe and useful functions from `bifunctors`.
 
