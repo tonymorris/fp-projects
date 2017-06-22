@@ -75,10 +75,17 @@ library functions that depend only on `bifunctors`.
 
      Implements safe and useful functions that depend only on `bifunctors`.
 
-##### `papa-n`
+##### `papa-x`
 
-Implements useful, general library functions that depend on two or more
-third-party packages. For example, a specific function implementation may depend
-on packages `lens` and `semigroupoids`. That function belongs in this package.
-The set of third-party dependencies is an open set. This package may also depend
-on others in `papa-*`.
+Exports modules from arbitrary third-party packages that are safe and useful to
+have re-exported into default scope. Implements useful, general library
+functions that depend only on `bifunctors`.
+
+  *  **`papa-x-export`**
+
+     Exports safe and useful functions from arbitrary third-party packages.
+
+  *  **`papa-x-implement`**
+
+     Implements safe and useful functions that depend on arbitrary third-party
+     packages.
