@@ -25,11 +25,11 @@ Exports modules from the `base` package that are safe and useful to have
 re-exported into default scope. Implements useful, general library functions
 that depend only on `base`.
 
-  *  `papa-base-export`
+  *  **`papa-base-export`**
 
      Exports safe and useful functions from `base`.
 
-  *  `papa-base-implement`
+  *  **`papa-base-implement`**
 
      Implements safe and useful functions that depend only on `base`.
 
@@ -39,11 +39,11 @@ Exports modules from the third-party `lens` package that are safe and useful to
 have re-exported into default scope. Implements useful, general library
 functions that depend only on `lens`.
 
-  *  `papa-lens-export`
+  *  **`papa-lens-export`**
 
      Exports safe and useful functions from `lens`.
 
-  *  `papa-lens-implement`
+  *  **`papa-lens-implement`**
 
      Implements safe and useful functions that depend only on `lens`.
 
@@ -53,11 +53,11 @@ Exports modules from the third-party `semigroupoids` package that are safe and
 useful to have re-exported into default scope. Implements useful, general
 library functions that depend only on `semigroupoids`.
 
-  *  `papa-semigroupoids-export`
+  *  **`papa-semigroupoids-export`**
 
      Exports safe and useful functions from `semigroupoids`.
 
-  *  `papa-semigroupoids-implement`
+  *  **`papa-semigroupoids-implement`**
 
      Implements safe and useful functions that depend only on `semigroupoids`.
 
@@ -71,7 +71,7 @@ library functions that depend only on `bifunctors`.
 
      Exports safe and useful functions from `bifunctors`.
 
-  *  `papa-bifunctors-implement`
+  *  **`papa-bifunctors-implement`**
 
      Implements safe and useful functions that depend only on `bifunctors`.
 
