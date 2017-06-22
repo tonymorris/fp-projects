@@ -17,36 +17,68 @@
 
 ##### `papa`
 
-Top-level package which exports all others.
+Top-level package which exports all other packages in `papa-*`.
 
 ##### `papa-base`
 
-Exports modules in `base` that are safe and useful to have re-exported into
-default scope.
+Exports modules from the `base` package that are safe and useful to have
+re-exported into default scope. Implements useful, general library functions
+that depend only on `base`.
 
-----
+  *  `papa-base-export`
 
-*The following packages depend on one or more third-party packages, expressed in
-the package name. It is a potentially large size, depending on the tree of
-required packages.*
+     Exports safe and useful functions from `base`.
+
+  *  `papa-base-implement`
+
+     Implements safe and useful functions that depend only on `base`.
 
 ##### `papa-lens`
 
-Re-implementations of functions that necessarily depend on the `lens` package.
+Exports modules from the third-party `lens` package that are safe and useful to
+have re-exported into default scope. Implements useful, general library
+functions that depend only on `lens`.
+
+  *  `papa-lens-export`
+
+     Exports safe and useful functions from `lens`.
+
+  *  `papa-lens-implement`
+
+     Implements safe and useful functions that depend only on `lens`.
 
 ##### `papa-semigroupoids`
 
-Re-implementations of functions that necessarily depend on the `semigroupoids` package.
+Exports modules from the third-party `semigroupoids` package that are safe and
+useful to have re-exported into default scope. Implements useful, general
+library functions that depend only on `semigroupoids`.
 
-##### `papa-lens-semigroupoids`
+  *  `papa-semigroupoids-export`
 
-Re-implementations of functions that necessarily depend on the `lens` package and the `semigroupoids` package.
+     Exports safe and useful functions from `semigroupoids`.
+
+  *  `papa-semigroupoids-implement`
+
+     Implements safe and useful functions that depend only on `semigroupoids`.
 
 ##### `papa-bifunctors`
 
-Re-implementations of functions that necessarily depend on the `bifunctors` package.
+Exports modules from the third-party `bifunctors` package that are safe and
+useful to have re-exported into default scope. Implements useful, general
+library functions that depend only on `bifunctors`.
 
-*(etc etc)*
+  *  `papa-bifunctors-export`
 
-----
+     Exports safe and useful functions from `bifunctors`.
 
+  *  `papa-bifunctors-implement`
+
+     Implements safe and useful functions that depend only on `bifunctors`.
+
+##### `papa-n`
+
+Implements useful, general library functions that depend on two or more
+third-party packages. For example, a specific function implementation may depend
+on packages `lens` and `semigroupoids`. That function belongs in this package.
+The set of third-party dependencies is an open set. This package may also depend
+on others in `papa-*`.
