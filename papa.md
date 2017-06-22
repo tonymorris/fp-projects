@@ -15,77 +15,77 @@
 
 ### packages
 
-* `papa`
+* **`papa`**
 
 Top-level package which exports all other packages in `papa-*`.
 
-  * **`papa-base`**
+    * **`papa-base`**
 
-  Exports modules from the `base` package that are safe and useful to have
-  re-exported into default scope. Implements useful, general library functions
-  that depend only on `base`.
+    Exports modules from the `base` package that are safe and useful to have
+    re-exported into default scope. Implements useful, general library functions
+    that depend only on `base`.
 
-    *  **`papa-base-export`**
+        *  **`papa-base-export`**
 
-       Exports safe and useful functions from `base`.
+           Exports safe and useful functions from `base`.
 
-    *  **`papa-base-implement`**
+        *  **`papa-base-implement`**
 
-       Implements safe and useful functions that depend only on `base`.
+           Implements safe and useful functions that depend only on `base`.
 
-  * **`papa-lens`**
+    * **`papa-lens`**
 
-  Exports modules from the third-party `lens` package that are safe and useful to
-  have re-exported into default scope. Implements useful, general library
-  functions that depend only on `lens`.
+    Exports modules from the third-party `lens` package that are safe and useful to
+    have re-exported into default scope. Implements useful, general library
+    functions that depend only on `lens`.
 
-    *  **`papa-lens-export`**
+        *  **`papa-lens-export`**
 
-       Exports safe and useful functions from `lens`.
+           Exports safe and useful functions from `lens`.
 
-    *  **`papa-lens-implement`**
+        *  **`papa-lens-implement`**
 
-       Implements safe and useful functions that depend only on `lens`.
+           Implements safe and useful functions that depend only on `lens`.
 
-  * **`papa-semigroupoids`**
+    * **`papa-semigroupoids`**
 
-  Exports modules from the third-party `semigroupoids` package that are safe and
-  useful to have re-exported into default scope. Implements useful, general
-  library functions that depend only on `semigroupoids`.
+    Exports modules from the third-party `semigroupoids` package that are safe and
+    useful to have re-exported into default scope. Implements useful, general
+    library functions that depend only on `semigroupoids`.
 
-    *  **`papa-semigroupoids-export`**
+        *  **`papa-semigroupoids-export`**
 
-       Exports safe and useful functions from `semigroupoids`.
+           Exports safe and useful functions from `semigroupoids`.
 
-    *  **`papa-semigroupoids-implement`**
+        *  **`papa-semigroupoids-implement`**
 
-       Implements safe and useful functions that depend only on `semigroupoids`.
+           Implements safe and useful functions that depend only on `semigroupoids`.
 
-  * **`papa-bifunctors`**
+    * **`papa-bifunctors`**
 
-  Exports modules from the third-party `bifunctors` package that are safe and
-  useful to have re-exported into default scope. Implements useful, general
-  library functions that depend only on `bifunctors`.
+    Exports modules from the third-party `bifunctors` package that are safe and
+    useful to have re-exported into default scope. Implements useful, general
+    library functions that depend only on `bifunctors`.
 
-    *  **`papa-bifunctors-export`**
+        *  **`papa-bifunctors-export`**
 
-       Exports safe and useful functions from `bifunctors`.
+           Exports safe and useful functions from `bifunctors`.
 
-    *  **`papa-bifunctors-implement`**
+        *  **`papa-bifunctors-implement`**
 
-       Implements safe and useful functions that depend only on `bifunctors`.
+           Implements safe and useful functions that depend only on `bifunctors`.
 
-  * **`papa-x`**
+    * **`papa-x`**
 
-  Exports modules from arbitrary third-party packages that are safe and useful to
-  have re-exported into default scope. Implements useful, general library
-  functions that depend only on `bifunctors`.
+    Exports modules from arbitrary third-party packages that are safe and useful to
+    have re-exported into default scope. Implements useful, general library
+    functions that depend only on `bifunctors`.
 
-    *  **`papa-x-export`**
+        *  **`papa-x-export`**
 
-       Exports safe and useful functions from arbitrary third-party packages.
+           Exports safe and useful functions from arbitrary third-party packages.
 
-    *  **`papa-x-implement`**
+        *  **`papa-x-implement`**
 
-       Implements safe and useful functions that depend on arbitrary third-party
-       packages.
+           Implements safe and useful functions that depend on arbitrary third-party
+           packages.
