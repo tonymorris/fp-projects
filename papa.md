@@ -41,7 +41,7 @@
 
     *  **`papa-bifunctors-implement`** Implements safe and useful functions that depend only on `bifunctors`.
 
-  * **`papa-x`** Exports modules from arbitrary third-party packages that are safe and useful to have re-exported into default scope. Implements useful, general library functions that depend only on `bifunctors`.
+  * **`papa-x`** Exports modules from arbitrary third-party packages that are safe and useful to have re-exported into default scope. Implements useful, general library functions that depend on arbitrary third-party packages.
 
     *  **`papa-x-export`** Exports safe and useful functions from arbitrary third-party packages.
 
